@@ -8,11 +8,88 @@
     <!-- meta info -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content= "Meeting Keeper helps you organize and manage your meetings efficiently.">
+    <meta name="description" content= "Meeting Keeper helps you store and organize your meeting information">
 
     <!-- link to favicon! -->
     <link rel="icon" href="favicon.ico">
 
+    <header> 
+        <h1> Movie Rating Project Brainstorm </h1> 
+    </header>
+
+    <nav>
+        <a href="#meeting details">Meeting Details</a>
+        <a href="#previous">Previous Work</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#dataset info">Dataset Overview</a>
+        <a href="#future tasks">Things to do prior to next weekly meeting </a>
+    </nav>
+
+    <!-- main content of the web page -->
+    <main>
+
+        <section>
+            <h3> Meeting Details </h3>
+            <ul>   
+                <li> Attendance: Everyone present </li>
+                <li> Time: 10:00 AM - 12:00 PM </li>
+                <li> Place: Tokyo, Japan </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id= "previous">
+        <h2>Previous Work</h2>
+            <ol>
+                <li>Selected a dataset containing at least 10,000 movie rating records</li>
+                <li>Conducted exploratory data analysis (EDA) to understand the dataset</li>
+                <li>Visualized the data using histograms and box plots to examine distribution, skewness, and outliers</li>
+                <li>Applied the interquartile range (IQR) method to identify and remove outliers</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id= "dataset info">
+        <h2> Dataset Overview </h2>
+            <p>
+                The dataset consists of metadata for approximately <b>45,000 movies</b> from the Full MovieLens dataset, 
+                including films released on or before <i>July 2017</i>.<br>
+                It contains detailed information such as <strong>cast, crew, plot keywords, budget, revenue, release dates, 
+                languages, and production details</strong>.<br>
+                In addition, the dataset includes over <b>26 million ratings</b> from approximately 
+                <em>270,000 users</em>, with ratings on a scale from <em>1 to 5</em>.<br>
+                The data was obtained from kaggle <a href="https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset">kaggle website</a> and is commonly used 
+                for recommendation system and data analysis tasks.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id= "agenda">
+            <h2>Agenda</h2>
+            <ul>
+                <li>Discuss which classification model to use based on class imbalance</li>
+                <li>Discuss how to split the dataset (training/test) and whether to include a validation set for hyperparameter tuning using k-fold cross-validation</li>
+                <li>Discuss evaluation metrics such as accuracy, precision, and F1 score</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id= "future tasks">
+            <h2>Things to do prior to next weekly meeting</h2>
+            <ul>
+                <li>Finish modeling and hyperparameter tuning</li>
+                <li>Analyze evaluation and learning curves</li>
+                <li>Document key inferences and conclusions</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer> Meeting Keeper 2026 </footer>
   </head>
   <body>
   </body>
