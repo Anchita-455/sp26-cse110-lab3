@@ -23,10 +23,21 @@
         <a href="#agenda">Agenda</a><br>
         <a href="#dataset info">Dataset Overview</a><br>
         <a href="#future tasks">Things to do prior to next weekly meeting </a><br>
+        <a href="#meeting recordings">Meeting Recordings </a><br>
     </nav>
 
     <!-- main content of the web page -->
     <main>
+
+        <br><br>
+        <details>
+        <summary>Attendee List</summary>
+        <ul>
+            <li>Team Lead</li>
+            <li>Project Manager</li>
+            <li>Developers</li>
+        </ul>
+        </details><br>
 
         <section>
             <div>
@@ -96,6 +107,86 @@
                 </ul>
             </div>
         </section>
+
+        <hr>
+
+        <section id= "meeting recordings">
+
+            <h2>Meeting Recordings </h2>
+            <img src="image.png" alt="Meeting Image" width="400"><br><br>
+
+            <audio controls>
+                <source src="audio meeting.m4a" type="audio/mp4">
+            </audio><br><br>
+
+            <video width="250" controls>
+                <source src="video meeting.mp4" type="video/mp4">
+            </video><br><br>
+        </section>
+
+        <form action="/submit" method="POST">
+
+            <fieldset>
+
+                <legend>Chocolate Survey!!</legend>
+
+                <label>Your Name:</label>
+                <input type="text" name="name"><br><br>
+                
+                <label>Date:</label>
+                <input type="date" name="date"><br><br>
+
+                <p>Favorite Type of Chocolate:</p>
+                <label>
+                    <input type="radio" name="chocolate_type" value="milk"> Milk Chocolate
+                </label><br>
+
+                <label>
+                    <input type="radio" name="chocolate_type" value="dark"> Dark Chocolate
+                </label><br>
+                
+                <label>
+                <input type="radio" name="chocolate_type" value="white"> White Chocolate
+                </label><br><br>
+
+
+                <p>What ingredients do you like in chocolate?</p>
+                <label>
+                    <input type="checkbox" name="addins" value="nuts"> Nuts
+                </label>
+
+                <label>
+                    <input type="checkbox" name="addins" value="caramel"> Caramel
+                </label><br><br>
+
+                <label>
+                    <input type="checkbox" name="addins" value="fruit"> Fruit
+                </label><br><br>
+
+                <label>How often do you eat chocolate?</label>
+                <select name="frequency">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="rarely">Rarely</option>
+                </select><br><br>
+
+                <label> What's your favorite brand? </label>
+                <input list="brands" name="brand">
+                <datalist id="brands">
+                    <option value="Hershey's">
+                    <option value="Lindt">
+                    <option value="Ghirardelli">
+                </datalist><br><br>
+
+                <label>Comments:</label><br>
+                <textarea name="comments" rows="3" cols="40"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+            
+            <br>
+            
+        </form>
 
     </main>
 
