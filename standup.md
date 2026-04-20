@@ -54,5 +54,5 @@ Participants:   Developers - Aslan, Lucy, Peter, Edmund, Susan <br>
 | Susan  | noting down results| work on evaluation metrics | |
 
 Upcoming Tasks: <br>
-[] Discuss with manager and present a demo <br>
-[] Make any revisions based on feedback <br>
+- [ ] Discuss with manager and present a demo <br>
+- [ ] Make any revisions based on feedback <br>
