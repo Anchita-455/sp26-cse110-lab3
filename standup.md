@@ -1,6 +1,11 @@
 Daily Standup Meeting
 
-Monday
+Participants:   Developers - Aslan, Lucy, Peter, Edmund, Susan 
+                Manager - Ramandu
+
+
+**Monday** Date: 03/19/2020
+
 | Team Members| Work done previously | Current Work| Problems/Issues |
 |----------|----------|----------|----------|
 | Aslan | data cleaning | model using KNN | inconsistent data types, need to clean more |
@@ -9,7 +14,8 @@ Monday
 | Edmund  | selected dataset  | do hyperparameter tuning  | |
 | Susan  | did IQR  | evaluate using metrics | redo IQR after boxplots |
 
-Tuesday
+**Tuesday**  Date: 03/20/2020
+
 | Team Members| Work done previously | Current Work| Problems/Issues |
 |----------|----------|----------|----------|
 | Aslan | data cleaning | model using KNN | standardization needed due to varied means |
@@ -18,7 +24,8 @@ Tuesday
 | Edmund  | selected dataset  | do hyperparameter tuning  | |
 | Susan  | did IQR  | evaluate using metrics |  |
 
-Wednesday
+**Wednesday** Date: 03/21/2020
+
 | Team Members| Work done previously | Current Work| Problems/Issues |
 |----------|----------|----------|----------|
 | Aslan | standardization needed due to varied means | KNN modeling in progress |
@@ -27,7 +34,8 @@ Wednesday
 | Edmund  |  | Assisting Lucy with SVM | |
 | Susan  | | Noting down results | |
 
-Thursday
+**Thursday** Date: 03/22/2020
+
 | Team Members| Work done previously | Current Work| Problems/Issues |
 |----------|----------|----------|----------|
 | Aslan | standardization needed due to varied means | KNN modeling in progress |
@@ -36,7 +44,8 @@ Thursday
 | Edmund  |  | Assisting Lucy with SVM | |
 | Susan  | | Noting down results | |
 
-Friday
+**Friday** Date: 03/23/2020
+
 | Team Members| Work done previously | Current Work| Problems/Issues |
 |----------|----------|----------|----------|
 | Aslan | KNN modeling complete| assisting Edmund with hyperparameter tuning |
@@ -44,3 +53,7 @@ Friday
 | Peter  |  | do learning curve | |
 | Edmund  |  | perform hyperparameter tuning | |
 | Susan  | noting down results| work on evaluation metrics | |
+
+Upcoming Tasks
+[] Discuss with manager and present a demo
+[] Make any revisions based on feedback
