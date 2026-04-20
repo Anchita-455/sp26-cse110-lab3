@@ -1,8 +1,7 @@
 Daily Standup Meeting
 
-Participants:   Developers - Aslan, Lucy, Peter, Edmund, Susan 
-                Manager - Ramandu
-
+Participants:   Developers - Aslan, Lucy, Peter, Edmund, Susan <br>
+                Manager - Ramandu <br>
 
 **Monday** Date: 03/19/2020
 
@@ -54,6 +53,6 @@ Participants:   Developers - Aslan, Lucy, Peter, Edmund, Susan
 | Edmund  |  | perform hyperparameter tuning | |
 | Susan  | noting down results| work on evaluation metrics | |
 
-Upcoming Tasks
-[] Discuss with manager and present a demo
-[] Make any revisions based on feedback
+Upcoming Tasks: <br>
+[] Discuss with manager and present a demo <br>
+[] Make any revisions based on feedback <br>
