@@ -11,6 +11,18 @@
 
         <!-- link to favicon! -->
         <link rel="icon" href="favicon.ico">
+
+        <!-- link to css stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!---- css with style -->
+        <style>
+            body 
+            {
+                background-color: rgb(220, 220, 220); 
+                color: rgb(50, 50, 50); 
+            }
+        </style>
   </head>
 
     <body>
@@ -32,7 +44,8 @@
 
             <br><br>
             <details>
-            <summary>Attendee List</summary>
+            <!-- inline CSS styling -->
+            <summary style = "color: #006400; font-weight: bold;">Attendee List</summary>
             <ul>
                 <li>Team Lead</li>
                 <li>Project Manager</li>
@@ -98,7 +111,7 @@
 
             <hr>
 
-            <section id= "future_tasks">
+            <section id= "future_tasks" class = "box">
                 <div>
                     <h2>Things to do prior to next weekly meeting</h2>
                     <ul>
@@ -111,7 +124,7 @@
 
             <hr>
 
-            <section id= "meeting_recordings">
+            <section id= "meeting_recordings" class = "special">
 
                 <h3>Meeting Recordings </h3>
                 <img src="image.png" alt="Meeting Image" width="400"><br><br>
@@ -125,7 +138,7 @@
                 </video><br><br>
             </section>
 
-            <form action="/submit" method="POST">
+            <form action="/submit" method="POST" class = "note">
 
                 <fieldset>
 
